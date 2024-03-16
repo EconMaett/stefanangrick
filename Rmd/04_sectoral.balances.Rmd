@@ -1,0 +1,121 @@
+---
+title: "Sectoral balances charts"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r Source data, echo=FALSE, message=FALSE, warning=FALSE}
+#source("sectors.r")
+load("sectors.rda")
+```
+
+Last updated: `r format(last.updated, "%Y-%m-%d %H:%m %Z")`
+
+# Euro Area
+
+```{r Euro area, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["EA19_Q_eurostat"]]
+```
+
+Download image: [PNG](charts/EA19_Q_eurostat.png), [PDF](charts/EA19_Q_eurostat.pdf)
+
+
+# France
+
+```{r France, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["FR_Q_eurostat"]]
+```
+
+Download image: [PNG](charts/FR_Q_eurostat.png), [PDF](charts/FR_Q_eurostat.pdf)
+
+
+# Germany
+
+```{r Germany, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["DE_Q_eurostat"]]
+```
+
+Download image: [PNG](charts/DE_Q_eurostat.png), [PDF](charts/DE_Q_eurostat.pdf)
+
+
+# Greece
+
+```{r Greece, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["GR_Q_eurostat"]]
+```
+
+Download image: [PNG](charts/GR_Q_eurostat.png), [PDF](charts/GR_Q_eurostat.pdf)
+
+
+# Italy
+
+```{r Italy, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["IT_Q_eurostat"]]
+```
+
+Download image: [PNG](charts/IT_Q_eurostat.png), [PDF](charts/IT_Q_eurostat.pdf)
+
+
+# Spain
+
+```{r Spain, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["ES_Q_eurostat"]]
+```
+
+Download image: [PNG](charts/ES_Q_eurostat.png), [PDF](charts/ES_Q_eurostat.pdf)
+
+
+# Australia
+
+```{r Australia, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["AU_A_oecd"]]
+```
+
+Download image: [PNG](charts/AU_A_oecd.png), [PDF](charts/AU_A_oecd.pdf)
+
+  
+# China
+
+```{r China, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["CN_A_oecd"]]
+```
+
+Download image: [PNG](charts/CN_A_oecd.png), [PDF](charts/CN_A_oecd.pdf)
+
+
+# Japan
+
+```{r Japan, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["JP_Q_boj_cao"]]
+```
+
+Download image: [PNG](charts/JP_Q_boj_cao.png), [PDF](charts/JP_Q_boj_cao.pdf)
+
+
+# Sweden
+
+```{r Sweden, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["SE_Q_eurostat"]]
+```
+
+Download image: [PNG](charts/SE_Q_eurostat.png), [PDF](charts/SE_Q_eurostat.pdf)
+
+
+# United Kingdom
+
+```{r UK, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["GB_Q_eurostat"]]
+```
+
+Download image: [PNG](charts/GB_Q_eurostat.png), [PDF](charts/GB_Q_eurostat.pdf)
+
+
+# United States
+
+```{r US, echo=FALSE, message=FALSE, warning=FALSE}
+plotly.list[["US_Q_fred"]]
+```
+
+Download image: [PNG](charts/US_Q_fred.png), [PDF](charts/US_Q_fred.pdf)
